@@ -12,7 +12,7 @@ async fn main() -> Result<(), anyhow::Error> {
     // Create agent with a single context prompt
     let agent = client
         .agent("qwen2.5:14b")
-        .preamble("You are a super intelligent detective trying to achieve tehcnical perfection in providing help to crime investigations.")
+        .preamble("ou are a super intelligent robot trying to achieve tehcnical perfection in providing help to coding challenges.")
         .build();
 
     // Prompt the agent and print the response
